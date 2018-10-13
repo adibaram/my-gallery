@@ -11,7 +11,7 @@ console.log(projId);
 var currProj = getProjById(projId);
 var temp = `
 <h2>${currProj.title}</h2>
-<p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+
 <img class="img-fluid d-block mx-auto" src="${currProj.url}" alt="">
 <p>${currProj.desc}</p>
 <ul class="list-inline">

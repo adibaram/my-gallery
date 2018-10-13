@@ -5,10 +5,10 @@ var gProjs = [
         "id": "books-store",
         "name": "e-Books store ",
         "title": "e-Books store",
-        "desc": "lorem ipsum lorem ipsum lorem ipsum",
+        "desc": "My books store",
         "url": "img/my-portfolio/books.gif",
         "publishedAt": 'Oct 2018',
-        "labels": ["game", "speed"]
+        "labels": ["e-coomerce ", "shop"]
     },
 
     {
@@ -18,7 +18,7 @@ var gProjs = [
         "desc": "Home made guess who Akinator",
         "url": "img/my-portfolio/guess-who.gif",
         "publishedAt": 'Oct 2018',
-        "labels": ["keyboard events", "speed"]
+        "labels": ["localStorage"]
     },
 
     {
@@ -28,7 +28,7 @@ var gProjs = [
         "desc": "Create your own Todo list",
         "url": "img/my-portfolio/todo-list.gif",
         "publishedAt": 'Oct 2018',
-        "labels": ["keyboard events", "speed"]
+        "labels": ["MVC"]
     },
 
     {
@@ -38,27 +38,27 @@ var gProjs = [
         "desc": "Find all mines",
         "url": "img/my-portfolio/mine-sweeper.gif",
         "publishedAt": 'Sep 2018',
-        "labels": ["keyboard events", "speed"]
+        "labels": ["JavaScript ", "board game"]
     },
 
     {
         "id": "collect-balls",
         "name": "Ball Board",
         "title": "Ball Board",
-        "desc": "Collect the balls",
+        "desc": "Collect the balls in the board",
         "url": "img/my-portfolio/collect-balls.gif",
         "publishedAt": 'Sep 2018',
-        "labels": ["keyboard events", "speed"]
+        "labels": ["keyboard events ", "speed"]
     },
 
     {
-        "id": "ballon-pop",
+        "id": "balloon-pop",
         "name": "Balloon Pop",
         "title": "Balloon Pop",
         "desc": "Pop the ballons in the picture",
         "url": "img/my-portfolio/balloons-pop.gif",
         "publishedAt": 'Sep 2018',
-        "labels": ["keyboard events", "speed"]
+        "labels": ["mouse events ", "css"]
     },
 ];
 
