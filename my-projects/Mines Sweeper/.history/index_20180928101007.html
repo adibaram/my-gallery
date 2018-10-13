@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" href="css/main.css">
+    <h1>Mine Sweeper</h1>
+</head>
+
+<body onload="initGame(0)">
+        <div>Time: <span class="timer">0</span> </div>
+        <!-- CR: cursor should be pointer for smiley and buttons. -->
+        <div class="emogi" onclick="restartGame(this, gCurrLevel)">🙂</div>
+        <button class="Easy" onclick="restartGame(this, 0)">Easy</button>
+        <button class="Medium" onclick="restartGame(this, 1)">Medium</button>
+        <button class="Hard" onclick="restartGame(this, 2)">Hard</button>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+
+    <!-- CR: Try to avoid inline styling. You have a css file for it. -->
+    <!-- CR: Give it a class and change the class from js -->
+    <button class="restart" onclick="restartGame(this, gCurrLevel)" style="display: none">Restart</button>
+    <div class="best-score-L1">Best EASY score is: <span class="best1">0</span></div>
+    <div class="best-score-L2">Best MEDIUM score is: <span class="best2">0</span></div>
+    <div class="best-score-L3">Best HARD score is: <span class="best3">0</span></div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

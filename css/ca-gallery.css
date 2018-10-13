@@ -85,7 +85,7 @@ body {
     position: fixed;
     height: 100%;
     z-index: 100000;
-    background: red;
+    background: #DFC3B5;
     width: 30vw;
     left: -30vw;
     transition: all 0.3s ease;
@@ -131,11 +131,12 @@ body {
     color: #fec503;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
-    font-size: 90%;
+    font-size: 20px;
     font-weight: 400;
+    font-style: bold;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: rgb(250, 44, 164);
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase;
 }

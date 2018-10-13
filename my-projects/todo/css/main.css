@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(126, 167, 156);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.btn-delete {
+    border: 0;
+    border-radius: 50%;
+    background-color: rgb(4, 89, 63);
+    cursor: pointer;
+    float:right;
+}
+
+.btn-delete:hover {
+    background-color: brown;
+    color:white;
+}
+
+.btn-delete:active {
+    background-color: red;
+
+}
+
+.add-todo-container {
+    background-color: rgb(4, 89, 63);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: rgb(4, 89, 63);
+}
+
+h4 {
+    color: rgb(4, 89, 63);
+}
+
+
+header {
+    text-align: center;
+}
+
+.todo {
+    font-size: 20px;
+    padding: 10px; 
+}
+
+.no-todos-container {
+    font-size: 20px;
+    padding: 10px; 
+    text-align: center;
+
+}
+
+.no-done-todos,
+.no-todos {
+    display: none;
+}
+
+
+/* #todo-filter, #todo-sort {
+    margin: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */

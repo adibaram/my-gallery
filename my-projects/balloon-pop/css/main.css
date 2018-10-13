@@ -1,0 +1,28 @@
+.balloon {
+    position: absolute;
+}
+
+.balloon1 {
+    left: 100px;
+    bottom: 0px;
+}
+
+.balloon2 {
+    left: 300px;
+    bottom: 0px;
+}
+
+.balloon1 img {
+    height: 150px;
+    width: 75px;
+}
+
+.balloon2 img {
+    height: 150px;
+    width: 75px;
+    
+}
+
+html {
+    background-color: rgb(190, 223, 249)
+}
