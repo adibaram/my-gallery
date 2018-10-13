@@ -8,7 +8,8 @@ var gProjs = [
         "desc": "My books store",
         "url": "img/my-portfolio/books.gif",
         "publishedAt": 'Oct 2018',
-        "labels": ["e-coomerce ", "shop"]
+        "labels": ["e-coomerce ", "shop"],
+        "link": "my-projects/books-store/index.html"
     },
 
     {
@@ -18,7 +19,8 @@ var gProjs = [
         "desc": "Home made guess who Akinator",
         "url": "img/my-portfolio/guess-who.gif",
         "publishedAt": 'Oct 2018',
-        "labels": ["localStorage"]
+        "labels": ["localStorage"],
+        "link": "my-projects/guess-who/index.html"
     },
 
     {
@@ -28,7 +30,8 @@ var gProjs = [
         "desc": "Create your own Todo list",
         "url": "img/my-portfolio/todo-list.gif",
         "publishedAt": 'Oct 2018',
-        "labels": ["MVC"]
+        "labels": ["MVC"],
+        "link": "my-projects/todo/index.html"
     },
 
     {
@@ -38,7 +41,8 @@ var gProjs = [
         "desc": "Find all mines",
         "url": "img/my-portfolio/mine-sweeper.gif",
         "publishedAt": 'Sep 2018',
-        "labels": ["JavaScript ", "board game"]
+        "labels": ["JavaScript ", "board game"],
+        "link": "my-projects/mine-sweeper/index.html"
     },
 
     {
@@ -48,7 +52,8 @@ var gProjs = [
         "desc": "Collect the balls in the board",
         "url": "img/my-portfolio/collect-balls.gif",
         "publishedAt": 'Sep 2018',
-        "labels": ["keyboard events ", "speed"]
+        "labels": ["keyboard events ", "speed"],
+        "link": "my-projects/collect-balls/index.html"
     },
 
     {
@@ -58,7 +63,8 @@ var gProjs = [
         "desc": "Pop the ballons in the picture",
         "url": "img/my-portfolio/balloons-pop.gif",
         "publishedAt": 'Sep 2018',
-        "labels": ["mouse events ", "css"]
+        "labels": ["mouse events ", "css"],
+        "link": "my-projects/balloon-pop/index.html"
     },
 ];
 

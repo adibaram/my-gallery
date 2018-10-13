@@ -19,6 +19,7 @@ var temp = `
   <li>Client: Window</li>
   <li>Category: ${currProj.labels}</li>
 </ul>
+<a href=${currProj.link} target="_blank">Open in a new tab</a></br>
 <button class="btn btn-primary" data-dismiss="modal" type="button">
     <i class="fa fa-times"></i>
     Close Project</button>
